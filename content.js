@@ -103,7 +103,7 @@ const PORTFOLIO_CONTENT = {
     },
     {
       id: "02",
-      image: "",
+      image: "Screenshot 2026-08-03 191925.png",
       title: "Bookflix",
       description: "Full stack book and movie discovery app with secure authentication and live API search.",
       tech: ["React.js", "Node.js", "React Bootstrap", "CSS"],
@@ -119,7 +119,7 @@ const PORTFOLIO_CONTENT = {
     },
     {
       id: "04",
-      image: "",
+      image: "bankroll.png",
       title: "Bankroll",
       description: "Contract tracking app for financial analysts, supporting contract creation and budget forecasting.",
       tech: ["HTML", "CSS", "JavaScript"],
