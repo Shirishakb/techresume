@@ -60,7 +60,7 @@ const PORTFOLIO_CONTENT = {
       { label: "Background", value: "Banking Ops + Full Stack Dev" }
     ],
     stats: [
-      { value: "87.34%", label: "Engineering GPA" },
+      { value: "9.19", label: "Engineering GPA" },
       { value: "8+", label: "Projects Shipped" },
       { value: "3+", label: "Years Professional Experience" }
     ]
@@ -185,7 +185,7 @@ const PORTFOLIO_CONTENT = {
     {
       date: "Nov 2020 — Nov 2023",
       type: "work",
-      title: "Single Window Operator, Government of India (Full-time)",
+      title: "Customer Service Associate",
       org: "Union Bank of India — Vizianagaram",
       description: "Managed daily banking operations, customer service, and cash handling with 100% accuracy; contributed to process improvements."
     },
@@ -194,7 +194,7 @@ const PORTFOLIO_CONTENT = {
       type: "education",
       title: "B.Tech, Electronics & Communications Engineering",
       org: "Lendi Institute of Engineering and Technology",
-      description: "Graduated with distinction, GPA 87.34%."
+      description: "Graduated with distinction, GPA 9.19."
     }
   ],
 
@@ -203,7 +203,7 @@ const PORTFOLIO_CONTENT = {
       title: "QA Testing Certification",
       issuer: "9th Network Inc",
       date: "April 2026",
-      link: ""
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:7476339993326768128/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B6Y9VT6TpRYCk3S7hqJH%2Fqg%3D%3D"
     },
     {
       title: "Full Stack Web Development",
@@ -211,6 +211,13 @@ const PORTFOLIO_CONTENT = {
       date: "February 2025",
       link: "https://www.linkedin.com/posts/korukonda-bhattaru-shirisha-656925326_im-happy-to-share-that-i-have-received-my-activity-7296505942567780352-qSgF"
     },
+     {
+        title:"Java Programming",
+        isuer:"InternPe",
+        date:"01/25/2026",
+        link:"https://media.licdn.com/dms/image/v2/D4D22AQHvYXTM1pwS8g/feedshare-shrink_480/B4DZwBxO_5GgAs-/0/1769556209996?e=1787184000&v=beta&t=ykEP0j-gdpaJUfJsE_N6d0TOLQ7c6lXU1oOK20ZMNvs"
+     },
+     
     {
       title: "Digital Transformation with Google Cloud",
       issuer: "Simplilearn",
