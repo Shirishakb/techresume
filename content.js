@@ -55,7 +55,7 @@ const PORTFOLIO_CONTENT = {
     // Quick facts shown in the identity card next to your bio (no photo needed).
     quickFacts: [
       { label: "Based in", value: "Winston-Salem, NC" },
-      { label: "Focus", value: "QA Analyst / Jr. QA Engineer" },
+      { label: "Focus", value: "QA Analyst / Jr. Software Engineer" },
       { label: "Languages", value: "English, Hindi, Telugu, Bengali" },
       { label: "Background", value: "Banking Ops + Full Stack Dev" }
     ],
@@ -95,7 +95,7 @@ const PORTFOLIO_CONTENT = {
   projects: [
     {
       id: "01",
-      image: "",
+      image: "pro.jpg",
       title: "Wirefront",
       description: "Web page mockup builder for rapid layout creation, with pre-built components for assembling website concepts quickly.",
       tech: ["React.js", "Python", "MongoDB", "JWT"],
@@ -111,7 +111,7 @@ const PORTFOLIO_CONTENT = {
     },
     {
       id: "03",
-      image: "",
+      image: "KB.png",
       title: "Kanban Board",
       description: "Dynamic task board across To Do, In Progress, and Done stages, built to improve workflow visibility.",
       tech: ["React.js", "Node.js", "React Bootstrap", "CSS"],
@@ -127,7 +127,7 @@ const PORTFOLIO_CONTENT = {
     },
     {
       id: "05",
-      image: "",
+      image: "csp.jpg",
       title: "CodeSphere",
       description: "Real-time code-sharing platform for writing, editing, and sharing snippets collaboratively.",
       tech: ["React.js", "Node.js", "React Bootstrap", "CSS"],
@@ -135,7 +135,7 @@ const PORTFOLIO_CONTENT = {
     },
     {
       id: "06",
-      image: "",
+      image: "weather-forecast.png",
       title: "Weather Forecast App",
       description: "Real-time weather lookup by location or search, built on a live weather API.",
       tech: ["React.js", "SQL", "Node.js", "React Bootstrap", "CSS"],
@@ -143,7 +143,7 @@ const PORTFOLIO_CONTENT = {
     },
     {
       id: "07",
-      image: "",
+      video: "https://www.loom.com/share/71cc87237d874341a35b626d58f70f78?sid=ac591530-eb6e-459d-92fb-559fdc90d916",
       title: "ThoughtShare",
       description: "Social platform for posting and engaging with short-form thoughts and ideas.",
       tech: ["React.js", "Node.js", "Express.js", "React Bootstrap", "CSS"],
@@ -151,12 +151,27 @@ const PORTFOLIO_CONTENT = {
     },
     {
       id: "08",
-      image: "",
+      image: "emp.png",
       title: "Employee Tracker",
       description: "Command-line app for managing employee records, roles, and departments against a SQL database.",
       tech: ["React.js", "Node.js", "SQL", "CSS"],
       link: "https://github.com/Shirishakb/Employee-Tracker"
-    }
+    },
+     {
+        id:"09",
+        image:"yaml1.png",
+        title:"Github Actions",
+        description:"GIVEN a fullstack application for a web developer,
+WHEN I upload new features to the application
+THEN I should be making Pull Requests to a develop branch first
+WHEN I create a Pull Request to a develop branch
+THEN I should be executing a GitHub Action that checks the Cypress component tests
+WHEN I see that the tests pass on GitHub Action
+THEN I should see those test results on GitHub Action and merge the code
+WHEN I push the code from the develop branch to the main branch
+THEN I should see that another GitHub Action triggers and should automatically deploy to Render,
+   deployed url:"https://github-action-tests.onrender.com/"
+}
   ],
 
   // type controls the small badge color: "work" or "education"
