@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shirisha Korukonda Bhattaru</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="statusbar" class="statusbar"></div>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a href="#home" class="logo">SHIRISHA<span class="dot-suffix">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-btn">&#9776;</button>
+  </div>
+</nav>
+
+<section id="home" class="hero">
+  <div class="wrap hero-grid" id="hero-content"></div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="eyebrow">About</div>
+    <h2 class="section-heading">About</h2>
+    <div class="about-grid" id="about-content"></div>
+  </div>
+</section>
+
+<section id="skills" class="skills-section">
+  <div class="wrap">
+    <div class="eyebrow">Capabilities</div>
+    <h2 class="section-heading">Skills</h2>
+    <div class="skills-grid" id="skills-content"></div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="eyebrow">Build Log</div>
+    <h2 class="section-heading">Projects</h2>
+    <div class="projects-grid" id="projects-content"></div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="eyebrow">Changelog</div>
+    <h2 class="section-heading">Experience &amp; Education</h2>
+    <div class="log-list" id="timeline-content"></div>
+  </div>
+</section>
+
+<section id="certifications">
+  <div class="wrap">
+    <div class="eyebrow">Verified</div>
+    <h2 class="section-heading">Certifications</h2>
+    <div class="cert-grid" id="cert-content"></div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="wrap contact-grid">
+    <div>
+      <div class="eyebrow">Contact</div>
+      <h2 id="contact-heading"></h2>
+      <p class="blurb" id="contact-blurb"></p>
+      <div class="contact-row"><span class="k mono">Phone</span><span id="contact-phone"></span></div>
+      <div class="contact-row"><span class="k mono">Email</span><span id="contact-email"></span></div>
+      <div class="contact-row"><span class="k mono">Location</span><span id="contact-location"></span></div>
+      <div class="social-row">
+        <a id="contact-linkedin" target="_blank">LinkedIn</a>
+        <a id="contact-github" target="_blank">GitHub</a>
+      </div>
+    </div>
+    <div class="form-panel">
+      <form id="contactForm" method="POST">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" name="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" name="subject" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" class="form-control" required></textarea>
+        </div>
+        <input type="text" name="_gotcha" style="display:none">
+        <button type="submit" class="btn">Send message</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span id="footer-text"></span>
+</footer>
+
+<button class="edit-toggle" id="editToggle" title="Edit this page">&#9998;</button>
+<div class="edit-toolbar" id="editToolbar">
+  <p>Edit mode is on. Click any underlined text to edit it, or use the "+ Add" buttons in each section.</p>
+  <button class="btn" id="saveLocalBtn">Save (this browser)</button>
+  <button class="btn" id="exportBtn">Export content.js</button>
+  <button class="btn ghost" id="resetBtn">Discard local edits</button>
+</div>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
