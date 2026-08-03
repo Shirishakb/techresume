@@ -19,6 +19,13 @@
 
    Editing this file by hand works too: it's just plain text.
    Keep the commas between items and the quote marks around text.
+
+   IMPORTANT if you edit by hand:
+   - Regular "..." strings must stay on ONE line.
+   - If you need line breaks inside a string, use backticks
+     `...` instead of quotes — see project 09 below for an example.
+   - Property names must not contain spaces unless quoted,
+     e.g. write deployedUrl instead of "deployed url".
    ============================================================ */
 
 const PORTFOLIO_CONTENT = {
@@ -143,7 +150,10 @@ const PORTFOLIO_CONTENT = {
     },
     {
       id: "07",
+      // Note: this site currently displays "image", not "video" — this
+      // card will show a placeholder until it has an image path too.
       video: "https://www.loom.com/share/71cc87237d874341a35b626d58f70f78?sid=ac591530-eb6e-459d-92fb-559fdc90d916",
+      image: "",
       title: "ThoughtShare",
       description: "Social platform for posting and engaging with short-form thoughts and ideas.",
       tech: ["React.js", "Node.js", "Express.js", "React Bootstrap", "CSS"],
@@ -157,21 +167,24 @@ const PORTFOLIO_CONTENT = {
       tech: ["React.js", "Node.js", "SQL", "CSS"],
       link: "https://github.com/Shirishakb/Employee-Tracker"
     },
-     {
-        id:"09",
-        image:"yaml1.png",
-        title:"Github Actions",
-        description:"GIVEN a fullstack application for a web developer,
+    {
+      id: "09",
+      image: "yaml1.png",
+      title: "GitHub Actions CI/CD Pipeline",
+      // Backticks (`) instead of quotes let this string safely span
+      // multiple lines — this is the fix for the syntax error.
+      description: `GIVEN a full stack application for a web developer,
 WHEN I upload new features to the application
-THEN I should be making Pull Requests to a develop branch first
+THEN I should be making Pull Requests to a develop branch first.
 WHEN I create a Pull Request to a develop branch
-THEN I should be executing a GitHub Action that checks the Cypress component tests
+THEN I should be executing a GitHub Action that checks the Cypress component tests.
 WHEN I see that the tests pass on GitHub Action
-THEN I should see those test results on GitHub Action and merge the code
+THEN I should see those test results on GitHub Action and merge the code.
 WHEN I push the code from the develop branch to the main branch
-THEN I should see that another GitHub Action triggers and should automatically deploy to Render.",
-   deployed url:"https://github-action-tests.onrender.com/"
-}
+THEN I should see that another GitHub Action triggers and automatically deploys to Render.`,
+      tech: ["GitHub Actions", "Cypress", "CI/CD", "Render"],
+      link: "https://github-action-tests.onrender.com/"
+    }
   ],
 
   // type controls the small badge color: "work" or "education"
@@ -214,9 +227,21 @@ THEN I should see that another GitHub Action triggers and should automatically d
   ],
 
   certifications: [
+     {
+        title:"Al Fluency Framework & Foundations",
+        issuer:"Anthropic",
+        date:"07/06/2026",
+        link:"https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fverify.skilljar.com%2Fc%2F6ogpghzw39y4&urlhash=1bxu&mt=FmSBJ83u9lZZXhzg5FVec27A9HJKZtbr6fw7bK-sERy9RMYGOn2bEtSQhJkYNiK1t1G40DQZr5GXsnMf403PUuYmOR3E&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BmkDJE0gySPqcBDPe6afWxg%3D%3D"
+     },
+     {
+        title:"Claude code 101",
+        issuer:"Anthropic",
+        date:"07/07/2026",
+        link:"https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fverify.skilljar.com%2Fc%2Fbsz25dp3mzxf&urlhash=G7K8&mt=ExeOBuoqqUqFCUpvN2lLDE1rfor-_bjTgFrVNsLw5grQ8UH9-ouobjoQI-Rch7_eqlJblukJcurB9_BbmnL-cRmjLTOn&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BmkDJE0gySPqcBDPe6afWxg%3D%3D"
+     },
     {
       title: "QA Testing Certification",
-      issuer: "9thNetwork Inc",
+      issuer: "9th Network Inc",
       date: "April 2026",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7476339993326768128/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B6Y9VT6TpRYCk3S7hqJH%2Fqg%3D%3D"
     },
@@ -226,17 +251,28 @@ THEN I should see that another GitHub Action triggers and should automatically d
       date: "February 2025",
       link: "https://www.linkedin.com/posts/korukonda-bhattaru-shirisha-656925326_im-happy-to-share-that-i-have-received-my-activity-7296505942567780352-qSgF"
     },
-     {
-        title:"Java Programming",
-        isuer:"InternPe",
-        date:"01/25/2026",
-        link:"https://media.licdn.com/dms/image/v2/D4D22AQHvYXTM1pwS8g/feedshare-shrink_480/B4DZwBxO_5GgAs-/0/1769556209996?e=1787184000&v=beta&t=ykEP0j-gdpaJUfJsE_N6d0TOLQ7c6lXU1oOK20ZMNvs"
-     },
-     
     {
-      title: "Digital Transformation with Google Cloud",
+      title: "Java Programming",
+      issuer: "InternPe",
+      date: "01/25/2026",
+      link: "https://media.licdn.com/dms/image/v2/D4D22AQHvYXTM1pwS8g/feedshare-shrink_480/B4DZwBxO_5GgAs-/0/1769556209996?e=1787184000&v=beta&t=ykEP0j-gdpaJUfJsE_N6d0TOLQ7c6lXU1oOK20ZMNvs"
+    },
+     {
+        title:"The Cybersecurity threat Landscape",
+        issuer:"LInkedin Learning",
+        date:"28/10/2025",
+        link:"https://www.linkedin.com/learning/certificates/b430be85a254f42a6ff3176e289e32e178e65f3fca5b2439902815929494323c/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BUjOvGCrRRg6cU79cNVmO1g%3D%3D"
+     },
+     {
+        title:"Angular Basics",
+        issuer:"Simplilearn",
+        date:"08/10/2025",
+        link:"https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fsimpli.app.link%2FgL9m6EOWIVb&urlhash=B-xv&mt=Jp8AH2QJSPxwMoaqI93p2bDKiAjk7jk56DImirnifa9kmCh6aGP_2vlRi4y45Ub61KgQ4UNFk91B_t-JGwtH13yGLkmWwH97HP1ePxqSVA_hgeFETCcXSttD9dU&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BNxjhyPAsQUC4OO9AQMmh%2BQ%3D%3D"
+     },
+    {
+      title: "Introduction to Digital Transformation with Google Cloud",
       issuer: "Simplilearn",
-      date: "",
+      date: "08/04/2025",
       link: "https://www.simplilearn.com/skillup-certificate-landing"
     }
   ],
