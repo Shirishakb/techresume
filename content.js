@@ -216,7 +216,7 @@ THEN I should see that another GitHub Action triggers and should automatically d
   certifications: [
     {
       title: "QA Testing Certification",
-      issuer: "9th Network Inc",
+      issuer: "9thNetwork Inc",
       date: "April 2026",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7476339993326768128/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B6Y9VT6TpRYCk3S7hqJH%2Fqg%3D%3D"
     },
