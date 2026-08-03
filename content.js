@@ -169,7 +169,7 @@ THEN I should be executing a GitHub Action that checks the Cypress component tes
 WHEN I see that the tests pass on GitHub Action
 THEN I should see those test results on GitHub Action and merge the code
 WHEN I push the code from the develop branch to the main branch
-THEN I should see that another GitHub Action triggers and should automatically deploy to Render,
+THEN I should see that another GitHub Action triggers and should automatically deploy to Render.",
    deployed url:"https://github-action-tests.onrender.com/"
 }
   ],
