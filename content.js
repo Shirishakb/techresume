@@ -267,13 +267,13 @@ THEN I should see that another GitHub Action triggers and automatically deploys 
         title:"Angular Basics",
         issuer:"Simplilearn",
         date:"08/10/2025",
-        link:"https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fsimpli.app.link%2FgL9m6EOWIVb&urlhash=B-xv&mt=Jp8AH2QJSPxwMoaqI93p2bDKiAjk7jk56DImirnifa9kmCh6aGP_2vlRi4y45Ub61KgQ4UNFk91B_t-JGwtH13yGLkmWwH97HP1ePxqSVA_hgeFETCcXSttD9dU&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BNxjhyPAsQUC4OO9AQMmh%2BQ%3D%3D"
+        link:"https://simpli-web.app.link/e/pVk8BBoHj5b"
      },
     {
       title: "Introduction to Digital Transformation with Google Cloud",
       issuer: "Simplilearn",
       date: "08/04/2025",
-      link: "https://www.simplilearn.com/skillup-certificate-landing"
+      link: "https://simpli-web.app.link/e/63PF77hHj5b"
     }
   ],
 
