@@ -261,7 +261,7 @@ THEN I should see that another GitHub Action triggers and automatically deploys 
         title:"The Cybersecurity threat Landscape",
         issuer:"LInkedin Learning",
         date:"28/10/2025",
-        link:"https://www.linkedin.com/learning/certificates/b430be85a254f42a6ff3176e289e32e178e65f3fca5b2439902815929494323c/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BUjOvGCrRRg6cU79cNVmO1g%3D%3D"
+        link:"https://lnkd.in/g8GSrVrj"
      },
      {
         title:"Angular Basics",
