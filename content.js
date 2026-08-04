@@ -231,17 +231,17 @@ THEN I should see that another GitHub Action triggers and automatically deploys 
         title:"Al Fluency Framework & Foundations",
         issuer:"Anthropic",
         date:"07/06/2026",
-        link:"https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fverify.skilljar.com%2Fc%2F6ogpghzw39y4&urlhash=1bxu&mt=FmSBJ83u9lZZXhzg5FVec27A9HJKZtbr6fw7bK-sERy9RMYGOn2bEtSQhJkYNiK1t1G40DQZr5GXsnMf403PUuYmOR3E&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BmkDJE0gySPqcBDPe6afWxg%3D%3D"
+        link:"https://verify.skilljar.com/c/6ogpghzw39y4"
      },
      {
         title:"Claude code 101",
         issuer:"Anthropic",
         date:"07/07/2026",
-        link:"https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fverify.skilljar.com%2Fc%2Fbsz25dp3mzxf&urlhash=G7K8&mt=ExeOBuoqqUqFCUpvN2lLDE1rfor-_bjTgFrVNsLw5grQ8UH9-ouobjoQI-Rch7_eqlJblukJcurB9_BbmnL-cRmjLTOn&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BmkDJE0gySPqcBDPe6afWxg%3D%3D"
+        link:"https://verify.skilljar.com/c/bsz25dp3mzxf"
      },
     {
       title: "QA Testing Certification",
-      issuer: "9th Network Inc",
+      issuer: "9thNetwork Inc",
       date: "April 2026",
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7476339993326768128/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B6Y9VT6TpRYCk3S7hqJH%2Fqg%3D%3D"
     },
