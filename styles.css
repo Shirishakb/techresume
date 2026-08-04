@@ -147,6 +147,15 @@ section { padding: 96px 0; }
   height: 1px;
   background: var(--line);
 }
+.section-rule {
+  height: 1px;
+  background: var(--line);
+  margin-bottom: 32px;
+}
+.skills-section .section-rule,
+.contact-grid .section-rule {
+  background: rgba(255,255,255,0.15);
+}
 .section-heading {
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 600;
